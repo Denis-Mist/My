@@ -1,0 +1,80 @@
+<html>
+ <head>
+  <title>
+   Разработка веб-приложения
+  </title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style_auth.css">
+ </head>
+ <body>
+  <div class="container">
+   <h1>
+    Разработка веб-приложения
+   </h1>
+   <p>
+    Заполните форму и мы обязательно свяжемся с вами в ближайшее время для уточнения деталей
+   </p>
+   <form>
+    <div class="form-group">
+     <label for="name">
+      Как вас зовут
+     </label>
+     <input id="name" placeholder="например Иванов Иван Иванович" type="text"/>
+    </div>
+    <div class="form-group">
+     <label for="email">
+      Ваш e-mail
+     </label>
+     <input id="email" placeholder="test@mail.ru" type="email"/>
+    </div>
+    <div class="form-group">
+     <label for="phone">
+      Телефон
+     </label>
+     <input id="phone" placeholder="+7 919 999 99 99" type="tel"/>
+    </div>
+    <div class="form-group">
+     <label for="country">
+      Страна
+     </label>
+     <select id="country">
+      <option>
+       Россия
+      </option>
+      <option>
+        США
+      </option>
+     </select>
+    </div>
+    <div class="form-group">
+     <label for="date">
+      Дата
+     </label>
+     <div class="date-container">
+      <input id="date" placeholder=" / / " type="text"/>
+      <img alt="Календарь" height="20" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-BVbpSZmLndA7MfHIxv2ahIKS/user-IBY8IaMXtVn7IVIdZeyvjx16/img-XWBII0FQDocueOMMRW3pbwhn.png?st=2024-09-13T05%3A43%3A02Z&amp;se=2024-09-13T07%3A43%3A02Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-12T23%3A17%3A14Z&amp;ske=2024-09-13T23%3A17%3A14Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=n9l/rtUFDD1UEKBugjyes/5BMUMXFm9S6UyzHhFkL1Q%3D" width="20"/>
+     </div>
+    </div>
+    <div class="form-group">
+     <label for="comment">
+      Комментарий
+     </label>
+     <textarea id="comment" rows="4"></textarea>
+    </div>
+    <div class="form-group">
+     <div class="checkbox-label">
+      <input id="consent" type="checkbox"/>
+      <label for="consent">
+       Согласен на обработку моих персональных данных
+      </label>
+     </div>
+    </div>
+    <div class="form-group">
+      <button class="submit-btn" type="submit">Отправить заявку</button>
+    </div>
+   </form>
+  </div>
+  
+ </body>
+ <script src="auth.js"></script>
+</html>

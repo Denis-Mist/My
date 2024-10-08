@@ -1,0 +1,14 @@
+C:\Users\Денис\Desktop\vscode\corporate_systems\obj\Debug\net8.0\corporate_systems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Денис\Desktop\vscode\corporate_systems\obj\Debug\net8.0\corporate_systems.AssemblyInfoInputs.cache
+C:\Users\Денис\Desktop\vscode\corporate_systems\obj\Debug\net8.0\corporate_systems.AssemblyInfo.cs
+C:\Users\Денис\Desktop\vscode\corporate_systems\obj\Debug\net8.0\corporate_systems.csproj.CoreCompileInputs.cache
+C:\Users\Денис\Desktop\vscode\corporate_systems\bin\Debug\net8.0\corporate_systems.exe
+C:\Users\Денис\Desktop\vscode\corporate_systems\bin\Debug\net8.0\corporate_systems.deps.json
+C:\Users\Денис\Desktop\vscode\corporate_systems\bin\Debug\net8.0\corporate_systems.runtimeconfig.json
+C:\Users\Денис\Desktop\vscode\corporate_systems\bin\Debug\net8.0\corporate_systems.dll
+C:\Users\Денис\Desktop\vscode\corporate_systems\bin\Debug\net8.0\corporate_systems.pdb
+C:\Users\Денис\Desktop\vscode\corporate_systems\obj\Debug\net8.0\corporate_systems.dll
+C:\Users\Денис\Desktop\vscode\corporate_systems\obj\Debug\net8.0\refint\corporate_systems.dll
+C:\Users\Денис\Desktop\vscode\corporate_systems\obj\Debug\net8.0\corporate_systems.pdb
+C:\Users\Денис\Desktop\vscode\corporate_systems\obj\Debug\net8.0\corporate_systems.genruntimeconfig.cache
+C:\Users\Денис\Desktop\vscode\corporate_systems\obj\Debug\net8.0\ref\corporate_systems.dll

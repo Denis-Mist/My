@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #e6d1f4;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #8900e4;
+}
+    .logo {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  .group-name {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .last-name {
+    font-size: 16px;
+    color: #666;
+  }
+  .welcome {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+     /* added margin to push content down */
+  }
+  .head-welcome {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .main-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .mini_head {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .navigation {
+    width: 200px; /* adjust the width as needed */
+    padding: 10px;
+        overflow-y: auto;
+  }
+  .avatar{
+    width: 400px;
+    height: 400px;
+    float: right;
+  }
+   .container{
+    display: flex;
+    flex-direction: row;
+    height: 200;
+   }
+   .footer {
+    margin: 0 auto;
+    width: 100%; /* or specify a fixed width */
+    text-align: center;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-size: 24px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f98bf5;
+}
+.checkbox {
+    text-align: center;
+}
+
+.pdf {
+  padding-top: 20px;
+    width: 700px;
+    height: 500px;
+    border-radius: 5%;
+}
+
+.map{
+  border-radius: 50%;
+}

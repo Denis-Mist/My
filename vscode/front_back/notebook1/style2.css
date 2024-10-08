@@ -1,0 +1,400 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #e6d1f4;
+  text-align: center;
+}
+a {
+text-decoration: none;
+color: #000;
+}
+
+a:hover {
+color: #8900e4;
+}
+
+li {
+list-style: none;
+}
+  .logo {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  .group-name {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .last-name {
+    font-size: 16px;
+    color: #666;
+  }
+  .welcome {
+    padding: 20px;
+    width: 85%;
+     /* added margin to push content down */
+  }
+  .head-welcome {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .main-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .mini_head {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .navigation {
+    width: 15%; 
+    padding: 30px;
+    overflow-y: auto;
+  }
+  .avatar{
+    width: 400px;
+    height: 400px;
+    float: right;
+  }
+   .container{
+    display: flex;
+    flex-direction: row;
+    height: 200;
+   }
+   
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: calc(28% - 20px);
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    box-shadow: #333;
+    border: #333 1px solid;
+  }
+  
+  .card-img {
+    width: 200;
+    height: 300px; /* adjust the height as needed */
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #555;
+}
+
+li {
+  list-style: none;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 100%; /* or specify a fixed width */
+  text-align: center;
+}
+
+.logo_tg{
+  width: 20px;
+  height: 20px;
+  right: 0;
+}
+
+.link{
+  right:0;
+  margin-left: 20px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.order-btn {
+  /* background-color: #4CAF50; */
+  /* color: #ffffff; */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ecb0df;
+}
+
+.order-btn:hover {
+  background-color: #d709ab;
+}
+
+.card-img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  background-color: #e6d1f4; /* same background color as the body */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #8900e4;
+  color: #fff;
+}
+
+nav a:active {
+  background-color: #6600cc;
+  color: #fff;
+}
+
+/* Add styles for "Фронтенд" and "Бэкенд" buttons */
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  margin-bottom: 10px;
+}
+
+.navigation li + li {
+  margin-top: 20px; /* add margin between buttons */
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000;
+  background-color: #e6d1f4; /* same background color as the body */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+  background-color: #8900e4;
+  color: #fff;
+}
+
+.navigation a:active {
+  background-color: #6600cc;
+  color: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #e6d1f4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4, h5, h6 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #666;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  background-color: #e6d1f4; /* same background color as the body */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #8900e4;
+  color: #fff;
+}
+
+nav a:active {
+  background-color: #6600cc;
+  color: #fff;
+}
+
+/* Add styles for "Фронтенд" and "Бэкенд" buttons */
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  margin-bottom: 10px;
+}
+
+.navigation li + li {
+  margin-top: 20px; /* add margin between buttons */
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000;
+  background-color: #e6d1f4; /* same background color as the body */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+  background-color: #8900e4;
+  color: #fff;
+}
+
+.navigation a:active {
+  background-color: #6600cc;
+  color: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #e6d1f4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4, h5, h6 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #666;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #ccc; /* add this line */
+}
+
+nav {
+  border-bottom: 1px solid #ccc; /* add this line */
+}
+
+.main-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center; /* добавьте эту строку */
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.main-text p {
+  width: 91.1%;
+}
+
+.welcome2 {
+  width: 100%;
+}
+
+.card-img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-img {
+  /* width: 200px;
+  height: 300px;  */
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  border: 5px solid #dca3d7; /* add a white border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

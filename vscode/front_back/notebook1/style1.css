@@ -1,0 +1,297 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #e6d1f4;
+  }
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #8900e4;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  background-image: url('ava.png'); /* replace 'logo.png' with the path to your image */
+  background-size: cover;
+  border-radius: 50%;
+  margin: 10px;
+}
+  .group-name {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .last-name {
+    font-size: 16px;
+    color: #666;
+  }
+  .welcome {
+    padding: 20px;
+     /* added margin to push content down */
+  }
+  .head-welcome {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .main-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .mini_head {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .navigation {
+    width: 400px; /* adjust the width as needed */
+    padding: 50px;
+    overflow-y: auto;
+  }
+  .avatar{
+    border-radius: 5%;
+    width: 400px;
+    height: 400px;
+    float: right;
+  }
+   .container{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 200;
+   }
+   .footer {
+    margin: 0 auto;
+    width: 100%; /* or specify a fixed width */
+    text-align: center;
+  }
+
+  .vid {
+    border-radius: 5%;
+    width: 540px;
+    height: 800px;
+    border-radius: 5%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  background-color: #e6d1f4; /* same background color as the body */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #8900e4;
+  color: #fff;
+}
+
+nav a:active {
+  background-color: #6600cc;
+  color: #fff;
+}
+
+/* Add styles for "Фронтенд" and "Бэкенд" buttons */
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  margin-bottom: 10px;
+}
+
+.navigation li + li {
+  margin-top: 20px; /* add margin between buttons */
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000;
+  background-color: #e6d1f4; /* same background color as the body */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+  background-color: #8900e4;
+  color: #fff;
+}
+
+.navigation a:active {
+  background-color: #6600cc;
+  color: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #e6d1f4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4, h5, h6 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #666;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #ccc; /* add this line */
+}
+
+nav {
+  border-bottom: 1px solid #ccc; /* add this line */
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h1 { font-size: 36px; }
+h2 { font-size: 24px; }
+h3 { font-size: 18px; }
+h4 { font-size: 16px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Pacifico', cursive;
+}
+
+.group-name {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+}
+
+.last-name {
+  font-size: 16px;
+  font-style: italic;
+  font-family: 'Pacifico', cursive;
+}
+
+.welcome .head-welcome {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+
+.cards h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Pacifico', cursive;
+}
+
+
+.main-text p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.footer p {
+  font-size: 14px;
+  font-style: italic;
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-link-bold {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+}
+
+nav ul li a {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+tbody tr:hover {
+  background-color: #f5c4f2; /* or any other color you prefer */
+  cursor: pointer; /* optional, to change the cursor shape on hover */
+}
+
+tbody tr td.checkbox:hover {
+  background-color: #f5c4f2;;
+}
+
+tbody tr:hover td:nth-child(2) { /* highlight the second column */
+  background-color: #f5c4f2;;
+}
+
+.avatar {
+  box-shadow: 0 0 10px rgba(33, 2, 2, 0.2);
+}
+
+.avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

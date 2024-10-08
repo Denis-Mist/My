@@ -1,0 +1,123 @@
+Функция calculate_information_entropy
+
+python
+
+Verify
+
+Open In Editor
+Edit
+Copy code
+def calculate_information_entropy(frequency_dict, total_symbols):
+    probabilities = [count / total_symbols for count in frequency_dict.values()]
+    information_entropy = -sum(p * math.log2(p) for p in probabilities if p > 0)
+    return information_entropy
+Эта функция рассчитывает информационную энтропию для заданного словаря частот символов. Информационная энтропия - это мера неопределенности или случайности в данных. Функция принимает два аргумента: frequency_dict - словарь частот символов и total_symbols - общее количество символов в тексте.
+
+Функция calculate_code_length_and_redundancy
+
+python
+
+Verify
+
+Open In Editor
+Edit
+Copy code
+def calculate_code_length_and_redundancy(information_entropy, total_symbols):
+    code_length = math.ceil(math.log2(total_symbols))
+    redundancy = code_length - information_entropy
+    return code_length, redundancy
+Эта функция рассчитывает длину кода и избыточность для заданной информационной энтропии и общего количества символов. Длина кода - это минимальная длина кода, необходимая для представления всех символов в тексте. Избыточность - это разница между длиной кода и информационной энтропией.
+
+Функция shannon_fano_coding
+
+python
+
+Verify
+
+Open In Editor
+Edit
+Copy code
+def shannon_fano_coding(frequency_dict):
+    sorted_frequency = sorted(frequency_dict.items(), key=lambda x: x[1], reverse=True)
+
+    def recursive_split(symbols):
+        if len(symbols) == 1:
+            return {symbols[0][0]: ''}
+
+        total_frequency = sum(freq for _, freq in symbols)
+        cumulative_frequency = 0
+        split_point = 0
+
+        for i, (char, freq) in enumerate(symbols):
+            cumulative_frequency += freq
+            if cumulative_frequency >= total_frequency / 2:
+                split_point = i + 1
+                break
+
+        left = symbols[:split_point]
+        right = symbols[split_point:]
+
+        left_code = recursive_split(left)
+        right_code = recursive_split(right)
+
+        for char in left_code:
+            left_code[char] = '0' + left_code[char]
+        for char in right_code:
+            right_code[char] = '1' + right_code[char]
+
+        return {**left_code, **right_code}
+
+    return recursive_split(sorted_frequency)
+Эта функция реализует алгоритм Шеннона-Фано для построения таблицы кодов. Функция принимает словарь частот символов и возвращает таблицу кодов, в которой каждый символ представлен уникальным кодом.
+
+Функция encode_text_with_code_table
+
+python
+
+Verify
+
+Open In Editor
+Edit
+Copy code
+def encode_text_with_code_table(text, code_table):
+    return ''.join(code_table[char] for char in text)
+Эта функция кодирует текст с помощью таблицы кодов. Функция принимает текст и таблицу кодов и возвращает закодированный текст.
+
+Функция decode_text_with_code_table
+
+python
+
+Verify
+
+Open In Editor
+Edit
+Copy code
+def decode_text_with_code_table(encoded_text, code_table):
+    reverse_code_table = {v: k for k, v in code_table.items()}
+    current_code = ''
+    decoded_text = ''
+
+    for bit in encoded_text:
+        current_code += bit
+        if current_code in reverse_code_table:
+            decoded_text += reverse_code_table[current_code]
+            current_code = ''
+
+    return decoded_text
+Эта функция декодирует закодированный текст с помощью таблицы кодов. Функция принимает закодированный текст и таблицу кодов и возвращает декодированный текст.
+
+Основная часть программы
+
+python
+
+Verify
+
+Open In Editor
+Edit
+Copy code
+input_text = "ААААААБББВСЕ"
+
+single_symbol_frequency = Counter(input_text)
+double_symbol_frequency = Counter(input_text[i:i+2] for i in range(0, len(input_text) - 1, 2))
+
+single_symbol
